@@ -1,0 +1,47 @@
+.nav {
+  @apply top-0 sticky z-10 flex flex-wrap items-center justify-between px-2 py-3 bg-black;
+}
+
+.nav__right {
+  @apply container px-4 mx-auto flex flex-wrap items-center justify-between;
+}
+.nav__res {
+  @apply w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start;
+}
+.nav__res__btn {
+  @apply cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden lg:outline-none;
+}
+
+.nav__center {
+  @apply lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden;
+}
+.nav__center__links {
+  @apply flex flex-col lg:flex-row list-none mr-auto;
+}
+
+.link {
+  @apply text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white;
+}
+.icon__contain {
+  @apply lg:text-white lg:hover:text-gray-300 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold cursor-pointer;
+}
+.icon {
+  @apply lg:text-gray-300 text-gray-500 text-lg mr-2 leading-relaxed;
+}
+
+.nav__left {
+  @apply lg:text-gray-300 flex px-2 shadow-sm mr-2;
+}
+
+.body__container {
+  @apply flex;
+}
+
+.hero {
+  @apply bg-gray-200 justify-center;
+  background-image: url(https://images.pexels.com/photos/1841841/pexels-photo-1841841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  min-height: 50rem;
+}
